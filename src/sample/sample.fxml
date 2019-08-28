@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.202" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="73.0" layoutY="46.0" prefHeight="43.0" prefWidth="231.0" text="Enter your name:" textAlignment="CENTER">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtName" layoutX="300.0" layoutY="36.0" prefHeight="43.0" prefWidth="264.0">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </TextField>
+      <Button fx:id="btnSubmit" layoutX="406.0" layoutY="108.0" mnemonicParsing="false" onMouseClicked="#showName" text="Submit" />
+      <Label fx:id="lblName" layoutX="73.0" layoutY="250.0" prefHeight="50.0" prefWidth="469.0">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
